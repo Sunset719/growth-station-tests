@@ -1,0 +1,14 @@
+{
+  "name": "growth-station-tests",
+  "version": "1.0.0",
+  "description": "Testes automatizados para a plataforma Growth Station usando Cypress",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.14.2"
+  },
+  "dependencies": {
+    "growth-station-tests": "file:"
+  }
+}
